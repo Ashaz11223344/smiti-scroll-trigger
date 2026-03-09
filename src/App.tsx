@@ -1,12 +1,13 @@
 import React from 'react';
 import ScrollCanvas from './components/ScrollCanvas';
+import BackgroundMusic from './components/BackgroundMusic';
 
 function App() {
     return (
         <main className="bg-black">
+            <BackgroundMusic />
             <section className="relative h-[21000px]">
                 <div className="sticky top-0 h-screen flex flex-col items-center justify-center text-center px-4 z-10 pointer-events-none">
-
                 </div>
                 <div className="absolute inset-0">
                     <ScrollCanvas />

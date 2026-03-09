@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const TOTAL_FRAMES = 1749;
 const FRAME_PREFIX = '';
 const FRAME_DIGITS = 4;
-const FRAME_EXT = '.webp';
+const FRAME_EXT = '.webp'
 const FPS = 30;
 
 const ScrollCanvas: React.FC = () => {
